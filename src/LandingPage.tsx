@@ -3,8 +3,6 @@ import { motion } from "motion/react";
 import {
   ArrowDown,
   ArrowRight,
-  Github,
-  Linkedin,
   Sparkles,
   Code2,
   Terminal,
@@ -126,14 +124,14 @@ function LandingPage() {
               rel="noreferrer"
               aria-label="GitHub"
             >
-              <Github size={19} />
+              {/* <Github size={19} /> */} github icon
             </a>
 
             <a
               href="#contact"
               aria-label="LinkedIn"
             >
-              <Linkedin size={19} />
+              {/* <Linkedin size={19} /> */} linkedn icon
             </a>
 
             <span className="social-divider" />
