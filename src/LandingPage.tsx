@@ -3,8 +3,6 @@ import { motion } from "motion/react";
 import {
   ArrowDown,
   ArrowRight,
-  Github,
-  Linkedin,
   Sparkles,
   Code2,
   Terminal,
