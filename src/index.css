@@ -224,6 +224,12 @@ button, a {
   background-clip: text;
   color: transparent;
 }
+.gradient-text2 {
+  background: linear-gradient(100deg, #ff64e3, #ba53ed, #ff9ba0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 
 .outline-text {
   color: transparent;
@@ -303,8 +309,8 @@ button, a {
   width: 480px;
   height: 480px;
   right: 0;
-  top: 50%;
-  transform: translateY(-53%);
+  top: 40%;
+  transform: translateY(-43%);
   display: grid;
   place-items: center;
 }
@@ -570,4 +576,89 @@ button, a {
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/***========================================================================***/
+
+.pgnt{
+  padding: 0.7rem;
+  margin: 0.7rem;
+}
+/***========================================================================***/
+
+/* SMOOTH PAGE NAVIGATION */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+/* NAVIGATION */
+.nav-links a,
+.brand,
+.nav-cta,
+.primary-button,
+.secondary-button,
+.hero-socials a,
+.scroll-indicator {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* NAVIGATION HOVER EFFECT */
+.nav-links a {
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #a78bfa;
+}
+
+/* BUTTON HOVER EFFECT */
+.primary-button,
+.secondary-button,
+.nav-cta {
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease,
+    background 0.3s ease;
+}
+
+.primary-button:hover,
+.secondary-button:hover,
+.nav-cta:hover {
+  transform: translateY(-3px);
+}
+
+/* SOCIAL ICONS */
+.hero-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.hero-socials a:hover {
+  color: #a78bfa;
+  transform: translateY(-3px);
+}
+
+/* SCROLL INDICATOR */
+.scroll-indicator {
+  transition: opacity 0.3s ease;
+}
+
+.scroll-indicator:hover {
+  opacity: 0.7;
+}
+
+/* ACCESSIBILITY */
+section[id] {
+  scroll-margin-top: 90px;
+}
+
+a:focus-visible {
+  outline: 2px solid #a78bfa;
+  outline-offset: 5px;
 }
