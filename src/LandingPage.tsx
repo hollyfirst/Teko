@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import Experiences from "./pages/Experiences";
 import Expertise from "./pages/Expertise";
+import Contacts from "./pages/Contacts";
 
 const technologies = [
   { name: "ANGULAR", icon: Code2 },
@@ -34,7 +35,7 @@ function LandingPage() {
       <nav className="navbar">
         <a href="#home" className="brand">
           <span className="brand-symbol">H.</span>
-          <span>HOLLY<span className="brand-dot">.</span></span>
+          <span>TEKO ATTIOGBE<span className="brand-dot">.</span></span>
         </a>
 
         <div className="nav-links">
@@ -155,80 +156,40 @@ function LandingPage() {
 
         {/* PROJECTS SECTION */}
         <section id="projects" className="projects-section">
-        {/* Your projects content */}
-        <Experiences/>
+            {/* Your projects content */}
+            <Experiences/>
         </section>
 
-        {/* CONTACT SECTION */}
+        {/* END page SECTION */}
         <section id="contact" className="contact-section">
+            
         {/* Your contact content */}
-            <div className="hero-content">
-                <motion.div
-                    className="hero-actions"
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.8, duration: 0.8 }}
-                >
-                    <a href="#projects" className="primary-button">
-                    Explore my work <ArrowRight size={18} />
-                    </a>
-
-                    <a href="#contact" className="secondary-button">
-                    Let's connect
-                    </a>
-                </motion.div>
-
-                <motion.div
-                    className="hero-socials"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 1.1 }}
-                >
-                    <a
-                    href="https://github.com/hollyfirst"
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label="GitHub"
-                    >
-                    {/* <Github size={19} /> */} github link
-                    </a>
-
-                    <a
-                    href="#contact"
-                    aria-label="LinkedIn"
-                    >
-                    {/* <Linkedin size={19} /> */} linkedn link
-                    </a>
-
-                    <span className="social-divider" />
-                    <span>BASED ON ENGINEERING. DRIVEN BY CURIOSITY.</span>
-                </motion.div>
-
-                {/* TECHNOLOGY STRIP */}
-                <motion.div
-                className="technology-strip"
-                initial={{ opacity: 0, y: 25 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.2, duration: 0.8 }}
-                >
-                <span className="strip-label">WORKING ACROSS TECHNOLOGIES</span>
-
-                <div className="technology-list">
-                    {technologies.map((tech) => {
-                    const Icon = tech.icon;
-
-                    return (
-                        <div className="technology-item" key={tech.name}>
-                        <Icon size={17} />
-                        <span>{tech.name}</span>
-                        </div>
-                    );
-                    })}
-                </div>
-                </motion.div>
- 
+            <div>
+                <Contacts/>
             </div>
             
+        {/* TECHNOLOGY STRIP */}
+            <motion.div
+            className="technology-strip"
+            initial={{ opacity: 0, y: 25 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.2, duration: 0.8 }}
+            >
+            <span className="strip-label">WORKING ACROSS TECHNOLOGIES</span>
+
+            <div className="technology-list">
+                {technologies.map((tech) => {
+                const Icon = tech.icon;
+
+                return (
+                    <div className="technology-item" key={tech.name}>
+                    <Icon size={17} />
+                    <span>{tech.name}</span>
+                    </div>
+                );
+                })}
+            </div>
+            </motion.div>
 
         </section>
 

@@ -11,9 +11,19 @@ function Experiences() {
   };
 
   return (
-    <main className="hero">
-
-      <section className="hero-content">
+    <main >
+      {/* <section className="hero">
+        <div className="bottom-line">
+          <span>EXPLORE THE INTERNET DIFFERENTLY</span>
+          <span>SCANNING THE WEB, ONE DOMAIN AT A TIME ↓</span>
+        </div>
+        <div>
+          <IsometricArchitecture/>
+        </div>
+      </section> */}
+      
+      <section className="hero">
+        <div className="hero-content">
         
         <div className="hero-right">
           <div className="eyebrow">
@@ -78,15 +88,10 @@ function Experiences() {
           <NetworkVisual />
         </div>
 
+        </div>
       </section>
+      
 
-      <div className="bottom-line">
-        <span>EXPLORE THE INTERNET DIFFERENTLY</span>
-        <span>SCANNING THE WEB, ONE DOMAIN AT A TIME ↓</span>
-      </div>
-      <div>
-        <IsometricArchitecture/>
-      </div>
     </main>
   );
 }

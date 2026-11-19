@@ -1,3 +1,4 @@
+import SkillsSection from "../components/SkillsSection"
 import Visual from "./Visual"
 
 function Expertise() {
@@ -8,8 +9,8 @@ function Expertise() {
             <Visual/>
         </aside>
         <aside>
-          <div className="pgnt">
-            <table>
+          <div className="pg">
+            {/* <table>
                 <th></th>
                 <tr>
                     <td>
@@ -85,9 +86,9 @@ function Expertise() {
                             Expertise
                         </div> 
                         <h2>
-                            J2e, php, vue js
+                            others
                             <br />
-                            <span className="gradient-text2">FRONT-end</span>
+                            <span className="gradient-text2">JSP, vue js</span>
                             <br />
                             Web development.
                         </h2>
@@ -124,10 +125,12 @@ function Expertise() {
                         </p>
                     </td>
                 </tr>
-            </table>
+            </table> */}
+            
+            <SkillsSection />
 
             <div className="hero-stats">
-                <div>
+                {/* <div>
                 <strong>44+</strong>
                 <span>Security checks</span>
                 </div>
@@ -138,7 +141,7 @@ function Expertise() {
                 <div>
                 <strong>100%</strong>
                 <span>Open source</span>
-                </div>
+                </div> */}
             </div>
           </div>
         </aside>

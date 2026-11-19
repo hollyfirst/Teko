@@ -11,25 +11,25 @@ const panels = [
     name: "CSS3/SCSS",
     icon: "⌘",
     className: "http",
-    details: ["HTTPS enabled", "HSTS active", "CSP configured"],
+    details: ["Html5 enabled", "bootstrap, material-UI, ", ".className {} configured"],
   },
   {
     name: "Typescript",
     icon: "◇",
     className: "tls",
-    details: ["TLS 1.3", "AES 256 GCM", "Certificate valid"],
+    details: ["TSX current", "BABEL Transcript", "type js6"],
   },
   {
     name: "javascript",
     icon: "⌁",
     className: "network",
-    details: ["IP 93.184.215.14", "AS15133", "Ashburn, US"],
+    details: ["ES6", "rxjs", "map, functions"],
   },
   {
     name: "API",
     icon: "◎",
     className: "dns",
-    details: ["A record", "MX record", "DNSSEC signed"],
+    details: ["A record", "Filtered data record", "GET, POST ,UPDATE"],
   },
 ]; 
 

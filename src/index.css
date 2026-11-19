@@ -580,9 +580,17 @@ button, a {
 
 /***========================================================================***/
 
-.pgnt{
+.container, .pagination, .pg{
   padding: 0.7rem;
   margin: 0.7rem;
+}
+
+/**** contact ****/
+.contact {
+  display: flex;
+}
+.contact-section {
+  display: block;
 }
 /***========================================================================***/
 
