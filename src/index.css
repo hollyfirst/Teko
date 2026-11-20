@@ -584,7 +584,10 @@ button, a {
   padding: 0.7rem;
   margin: 0.7rem;
 }
-
+/*** expertise ***/
+.stats{
+  justify-content: center;
+}
 /**** contact ****/
 .contact {
   display: flex;
