@@ -44,7 +44,7 @@
 
 .iso-stack {
   position: relative;
-  width: 520px;
+  width: 1020px;
   height: 360px;
   transform-style: preserve-3d;
   transform: rotateX(0deg);
@@ -57,7 +57,7 @@
   position: absolute;
   left: 50%;
   top: 50%;
-
+  padding-top: 7rem;
   width: 500px;
   height: 280px;
 
@@ -66,14 +66,15 @@
   transform-style: preserve-3d;
 
   transform:
-    translate(-50%, -50%)
+    translate(-50%, -10%)
     rotateX(58deg)
     rotateZ(-30deg)
     translateZ(var(--depth));
 
   background: rgba(23, 25, 24, 0.88);
 
-  border: 1px solid rgba(190, 255, 0, 0.4);
+  /* border: 1px solid rgba(190, 255, 0, 0.4); */
+  border: 1px solid #5cafff;
 
   transition:
     border-color 0.3s ease,

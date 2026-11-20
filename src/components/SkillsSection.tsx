@@ -1,4 +1,13 @@
 import "./SkillsSection.css";
+type Skill = {
+  level: string;
+  title: string;
+  highlightClass: string;
+  highlight: string;
+  description: string;
+  subtitle: string;
+  cta: string;
+}; 
 
 const skills = [
   {
@@ -53,7 +62,7 @@ const skills = [
   },
 ];
 
-function SkillCard({ skill, index }) {
+function SkillCard({ skill }: { skill: Skill }) {
   return (
     <article className="skill-card">
       <div className="eyebrow">
@@ -102,11 +111,10 @@ function SkillsSection() {
       </div>
 
       <div className="skills-grid">
-        {skills.map((skill, index) => (
+        {skills.map((skill) => (
           <SkillCard
             key={skill.highlight}
             skill={skill}
-            index={index}
           />
         ))}
       </div>

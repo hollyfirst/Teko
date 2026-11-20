@@ -130,18 +130,18 @@ function Expertise() {
             <SkillsSection />
 
             <div className="hero-stats">
-                {/* <div>
+                <div>
                 <strong>44+</strong>
-                <span>Security checks</span>
+                <span>Webpages built</span>
                 </div>
                 <div>
-                <strong>20s</strong>
-                <span>Average scan</span>
+                <strong>12th</strong>
+                <span>web app</span>
                 </div>
                 <div>
                 <strong>100%</strong>
-                <span>Open source</span>
-                </div> */}
+                <span>technical Enterprise</span>
+                </div>
             </div>
           </div>
         </aside>

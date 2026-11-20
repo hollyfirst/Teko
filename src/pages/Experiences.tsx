@@ -12,15 +12,15 @@ function Experiences() {
 
   return (
     <main >
-      {/* <section className="hero">
-        <div className="bottom-line">
+      <section className="hero">
+        {/* <div className="bottom-line">
           <span>EXPLORE THE INTERNET DIFFERENTLY</span>
           <span>SCANNING THE WEB, ONE DOMAIN AT A TIME ↓</span>
-        </div>
+        </div> */}
         <div>
           <IsometricArchitecture/>
         </div>
-      </section> */}
+      </section>
       
       <section className="hero">
         <div className="hero-content">
@@ -71,7 +71,7 @@ function Experiences() {
 
           <div className="hero-stats">
             <div>
-              <strong>44+</strong>
+              <strong>30+</strong>
               <span>Security checks</span>
             </div>
             <div>

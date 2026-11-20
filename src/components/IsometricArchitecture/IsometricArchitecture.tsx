@@ -21,12 +21,12 @@ const layers: LayerData[] = [
   {
     name: "TLS",
     depth: 130,
-    rows: ["Protocol", "Cipher", "Issuer", "Chain", "Expires"],
+    rows: ["Protocol", "Cipher", "Issuer", "Chain", "Socials"],
   },
   {
     name: "HTTP",
     depth: 195,
-    rows: ["Status", "HSTS", "CSP", "X-Powered-By", "Set-Cookie"],
+    rows: ["Status", "HSTS", "CSP", "X-Powered-By", "Banks"],
   },
   {
     name: "SCRIPTS",
@@ -35,8 +35,8 @@ const layers: LayerData[] = [
       "app.js",
       "gtm.js",
       "fbevents.js",
-      "hotjar.js",
-      "fonts.gstatic",
+      "INSurances",
+      "TeleComms",
     ],
   },
   {
